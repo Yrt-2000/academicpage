@@ -158,7 +158,7 @@ img{
 .head2{
   color:rgb(8, 53, 177);
   font-size:25px ;
-  padding-bottom: 4px;
+  padding-bottom: 7px;
 }
 .interests{
   margin-top: 45px;
@@ -216,6 +216,8 @@ ol.c{
 }
 .description{
   display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
   background-color: cadetblue;
   width: 50%;
 }
