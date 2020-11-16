@@ -43,6 +43,55 @@
           </div>
         </div>
       </div>
+      <div class="publications">
+        <div class="head2">Publications</div>
+        <div class="subTitle">
+          Conferences
+        </div>
+        <div class="content">
+          <ol class="c">
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Coca Cola</li>
+          </ol>
+        </div>
+        <div class="subTitle">
+          Journals
+        </div>
+        <div class="content">
+           <ol class="c">
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Coca Cola</li>
+          </ol> 
+        </div>
+      </div>
+      <div class="demo">
+        <div class="head2">BlueBee Demo</div>
+        <div class="show">
+           <div class="vedios">
+                <iframe width="562" height="316" 
+                src="https://www.youtube.com/embed/ZAtHBLRmEUs" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+           </div>
+           <div class="description">
+                 sdddd
+           </div>
+        </div>
+        <div class="head2">LTE2B Demo</div>
+        <div class="show">
+          <div class="vedios">
+                <iframe width="562" height="316" 
+                src="https://www.youtube.com/embed/ycOY9y__3bw" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+           </div>
+           <div class="description">
+                 sdddd
+           </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -138,5 +187,36 @@ ul.b{
 .left{
   width: 70%;
   background-color: aquamarine;
+}
+.publications{
+  margin-top: 45px;
+}
+.subTitle{
+  font-size: 20px;
+  padding-top: 3px;
+}
+ol.c{
+  margin-top: 0px;
+  padding-left: 26px;
+  font-size: 14px;
+  line-height: 25px;
+}
+.demo{
+  margin-top: 45px;
+}
+.show{
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: row;
+}
+.vedios{
+  display: flex;
+  width: 50%;
+  background-color: brown;
+}
+.description{
+  display: flex;
+  background-color: cadetblue;
+  width: 50%;
 }
 </style>
