@@ -1,7 +1,13 @@
 <template>
   <div id="app">
-    <div class="bar">
+    <!-- <div class="bar">
       Zhimeng Yin
+    </div> -->
+    <div class="bar">
+      <div class="icon">
+        Zhimeng Yin
+      </div>
+      <div class="else"></div>
     </div>
     <div class="other">
       <div class="basic">
@@ -119,12 +125,27 @@ export default {
   position: fixed;
   top: 0px;
   left: 0px;
-  background-color: black;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.icon{
+  display: flex;
+  width: 180px;
   color: aliceblue;
-  text-align: left;
+  background-color:rgb(4, 25, 83);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:inline;
   font-size: 25px;
-  font-family:'Times New Roman', Times, serif;
-  padding: 20px 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.else{
+  display: flex;
+  background-color: rgb(5, 73, 122);
+  width: calc(100% - 180px)
+  /* margin-right: 0px; */
 }
 .other{
   display:flex;
